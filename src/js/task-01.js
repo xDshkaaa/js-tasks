@@ -1,6 +1,8 @@
 const list = document.querySelector("#categories");
 
 const listItems = list.children;
+
+// Animals
 const categoryAnimal = listItems[0].firstElementChild;
 const ulAnimals = categoryAnimal.nextElementSibling;
 const countOfAnimals = ulAnimals.children.length;
