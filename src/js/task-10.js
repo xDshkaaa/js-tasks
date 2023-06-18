@@ -32,7 +32,7 @@ const createBoxes = (amount) => {
   return (boxes.innerHTML = boxArray.join(""));
 };
 
-// destroy boxes
+// delete boxes
 const destroyBoxes = () => {
   boxes.innerHTML = "";
   boxArray = [];
