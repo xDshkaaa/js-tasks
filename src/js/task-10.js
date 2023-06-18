@@ -23,7 +23,7 @@ const createBoxes = (amount) => {
     let randomImage = getRandomHexColor();
     boxArray[
       index
-    ] = `<div style="width: ${size}px; height: ${size}px; background-color: ${randomImage};"></div>
+    ] = `<div style="width: ${size}px; height: ${size}px; background-color: ${randomImage};  margin-bottom: 5px;"></div>
     `;
 
     size += 10;
