@@ -24,3 +24,4 @@ const imageItem = images.map((el) => {
 });
 
 imageItem.map((image) => list.append(image));
+//list.append(...imageItem);
